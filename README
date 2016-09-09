@@ -1,6 +1,7 @@
 phpAutomaticDownloader
 
 Script to download files using php cUrl with cookies.
+Urls are read from todownload.txt
 Cookies are loaded from cookies.txt, should use Netscape cookie specification.
 Renames it to original file name after download using the Content-Disposition header.
 Paths are relative.
